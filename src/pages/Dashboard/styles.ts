@@ -23,7 +23,9 @@ export const MainContainer = styled.div`
   padding: 16px;
   background-color: #e6e6e6;
 
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 100px);
+  overflow: auto;
+  height: calc(100vh - 150px);
   overflow: auto;
 `;
 
@@ -32,21 +34,12 @@ export const ProductContainer = styled.div`
   flex-wrap: wrap;
 `;
 
-// export const ProductList = styled(
-//   FlatList as new () => FlatList<Product>,
-// ).attrs({
-//   numColumns: 2,
-// })`
-//   flex: 1;
-//   padding: 0 10px;
-// `;
-
 export const Product = styled.div`
   background: #fff;
   padding: 16px 16px;
   border-radius: 5px;
   margin: 8px;
-  max-width: 500px;
+  width: 150px;
   flex: 1;
   box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.4);
 `;
@@ -54,6 +47,7 @@ export const Product = styled.div`
 export const ProductImage = styled.img`
   height: 122px;
   width: 122px;
+  margin: 0px auto;
   align-self: center;
 `;
 

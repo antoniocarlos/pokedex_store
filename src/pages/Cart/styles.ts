@@ -13,7 +13,7 @@ export const ProductContainer = styled.div`
   flex: 1;
   flex-direction: row;
 
-  height: calc(100vh - 300px);
+  height: calc(100vh - 200px);
 
   padding: 16px;
   overflow: auto;

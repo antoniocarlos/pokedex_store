@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: nowrap;
   background: #d93434;
-  height: 150px;
+  height: 100px;
   padding: 20px;
   align-items: center;
   justify-content: center;
@@ -29,6 +29,8 @@ export const Submit = styled.button`
   color: #fffae8;
 
   font-weight: 500;
+
+  min-width: 200px;
 
   transition: background-color 0.2s;
 
