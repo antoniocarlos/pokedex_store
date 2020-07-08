@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-wrap: nowrap;
   background: #d93434;
   height: 100px;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
   justify-content: center;
 `;
@@ -17,8 +17,8 @@ export const Info = styled.div``;
 
 export const Submit = styled.button`
   display: flex;
-  margin-right: 130px;
-  padding: 16px;
+  margin-right: 30px;
+  padding: 12px;
   align-items: center;
   justify-content: center;
   background: #ff9000;
@@ -30,7 +30,7 @@ export const Submit = styled.button`
 
   font-weight: 500;
 
-  min-width: 210px;
+  width: 250px;
 
   transition: background-color 0.2s;
 
@@ -40,6 +40,11 @@ export const Submit = styled.button`
 
   svg {
     margin-right: 16px;
+    color: #fffae8;
+  }
+
+  p {
+    font-size: 16px;
     color: #fffae8;
   }
 `;
