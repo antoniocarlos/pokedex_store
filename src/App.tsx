@@ -2,17 +2,17 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './routes';
-import AppContainer from './hooks';
+import AppProvider from './hooks';
 import GlobalStyle from './styles/glogal';
 
 const App: React.FC = () => (
   <>
-    <AppContainer>
+    <AppProvider>
       <BrowserRouter>
         <Routes />
       </BrowserRouter>
       <GlobalStyle />
-    </AppContainer>
+    </AppProvider>
   </>
 );
 

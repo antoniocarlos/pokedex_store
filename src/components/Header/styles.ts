@@ -54,8 +54,7 @@ export const HornamentFor = styled.div`
 export const SiteTitle = styled.h1`
   font-family: 'Comfortaa', cursive;
   color: #fcf6e3;
-  font-size: 48px;
-  min-width: 500px;
+  font-size: 36px;
   text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.8);
-  margin: 0px auto;
+  margin: 0px 16px;
 `;

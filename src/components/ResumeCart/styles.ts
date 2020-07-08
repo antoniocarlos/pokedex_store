@@ -17,7 +17,7 @@ export const Info = styled.div``;
 
 export const Submit = styled.button`
   display: flex;
-  margin-right: 150px;
+  margin-right: 130px;
   padding: 16px;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@ export const Submit = styled.button`
 
   font-weight: 500;
 
-  min-width: 200px;
+  min-width: 210px;
 
   transition: background-color 0.2s;
 

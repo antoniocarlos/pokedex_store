@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const MainContainer = styled.div`
   flex: 2 1;
-  min-width: 700px;
+  min-width: 450px;
   padding: 16px;
   background-color: #e6e6e6;
 
