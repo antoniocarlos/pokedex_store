@@ -22,7 +22,7 @@ const ResumeCart: React.FC = ({ children }) => {
     <Container>
       <Submit type="button" onClick={() => handleClick()}>
         <FiShoppingCart size={24} color="#fff" />
-        <p>FINALIZAR COMPRA!</p>
+        <p>COMPRAR!</p>
       </Submit>
       <Info>{children}</Info>
     </Container>

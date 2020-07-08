@@ -30,7 +30,7 @@ export const Submit = styled.button`
 
   font-weight: 500;
 
-  width: 250px;
+  width: 150px;
 
   transition: background-color 0.2s;
 
