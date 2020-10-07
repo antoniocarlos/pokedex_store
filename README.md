@@ -18,3 +18,6 @@ This project was developed in React-native and typescript.
 **styled-components:** Styling library.<br>
 **yup:** Library for data validation.<br>
 
+### ⚖ LICENSE
+
+The project can be copied and modified, as long as due credit is given.
